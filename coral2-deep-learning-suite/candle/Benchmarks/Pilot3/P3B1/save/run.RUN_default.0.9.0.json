@@ -1,0 +1,232 @@
+[
+    {
+        "status": "Started",
+        "start_time": "2018-02-21 12:05:38.740043",
+        "parameters": [
+            "non_trainable_params: 0",
+            "shuffle: True",
+            "verbose: True",
+            "run_id: RUN_default.0.9.0",
+            "home_dir: .",
+            "epochs: 10",
+            "seed: False",
+            "config_file: /Users/pbalapra/Projects/repos/2018/dl-benchmarks/share-version/coral2-deep-learning-suite/candle/Benchmarks/Pilot3/P3B1/p3b1_default_model.txt",
+            "out_act: softmax",
+            "output_files: result0_0.csv;result1_0.csv;result2_0.csv",
+            "n_fold: 1",
+            "train_bool: True",
+            "eval_bool: False",
+            "shared_nnet_spec: 1200",
+            "activation: relu",
+            "feature_names: Primary site:Tumor laterality:Histological grade",
+            "save: save",
+            "dropout: 0.0",
+            "valid_truths: data/task0_0_test_label.csv;data/task1_0_test_label.csv;data/task2_0_test_label.csv",
+            "total_params: 10113619",
+            "optimizer: sgd",
+            "save_path: None",
+            "learning_rate: 0.01",
+            "batch_size: 10",
+            "train_features: data/task0_0_train_feature.csv;data/task1_0_train_feature.csv;data/task2_0_train_feature.csv",
+            "train_truths: data/task0_0_train_label.csv;data/task1_0_train_label.csv;data/task2_0_train_label.csv",
+            "gpus: []",
+            "logfile: None",
+            "case: CenterZ",
+            "loss: categorical_crossentropy",
+            "datatype: <type 'numpy.float32'>",
+            "trainable_params: 10113619",
+            "ind_nnet_spec: 1200, 1200:1200, 1200:1200, 1200",
+            "base_memo: None",
+            "valid_features: data/task0_0_test_feature.csv;data/task1_0_test_feature.csv;data/task2_0_test_feature.csv",
+            "fig_bool: False"
+        ],
+        "experiment_id": "EXP_default",
+        "run_id": "RUN_default.0.9.0"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.9602947891522676
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 1/10, duration: 13.625483s, loss: 0.960294789152, val_loss: 1.60262792399"
+            ]
+        },
+        "validation_loss": {
+            "set": 1.6026279239943533
+        },
+        "run_id": "RUN_default.0.9.0"
+    },
+    {
+        "status": {
+            "set": "Finished"
+        },
+        "date_modified": {
+            "set": "NOW"
+        },
+        "end_time": {
+            "set": "2018-02-21 12:05:52.365734"
+        },
+        "runtime_hours": {
+            "set": 0.0037849141666666665
+        },
+        "run_id": "RUN_default.0.9.0"
+    }
+][
+    {
+        "status": "Started",
+        "start_time": "2018-02-21 12:11:19.881874",
+        "parameters": [
+            "non_trainable_params: 0",
+            "shuffle: True",
+            "verbose: True",
+            "run_id: RUN_default.0.9.0",
+            "home_dir: .",
+            "epochs: 10",
+            "seed: False",
+            "config_file: /Users/pbalapra/Projects/repos/2018/dl-benchmarks/share-version/coral2-deep-learning-suite/candle/Benchmarks/Pilot3/P3B1/p3b1_default_model.txt",
+            "out_act: softmax",
+            "output_files: result0_0.csv;result1_0.csv;result2_0.csv",
+            "n_fold: 1",
+            "train_bool: True",
+            "eval_bool: False",
+            "shared_nnet_spec: 1200",
+            "activation: relu",
+            "feature_names: Primary site:Tumor laterality:Histological grade",
+            "save: save",
+            "dropout: 0.0",
+            "valid_truths: data/task0_0_test_label.csv;data/task1_0_test_label.csv;data/task2_0_test_label.csv",
+            "total_params: 10113619",
+            "optimizer: sgd",
+            "save_path: None",
+            "learning_rate: 0.01",
+            "batch_size: 10",
+            "train_features: data/task0_0_train_feature.csv;data/task1_0_train_feature.csv;data/task2_0_train_feature.csv",
+            "train_truths: data/task0_0_train_label.csv;data/task1_0_train_label.csv;data/task2_0_train_label.csv",
+            "gpus: []",
+            "logfile: None",
+            "case: CenterZ",
+            "loss: categorical_crossentropy",
+            "datatype: <type 'numpy.float32'>",
+            "trainable_params: 10113619",
+            "ind_nnet_spec: 1200, 1200:1200, 1200:1200, 1200",
+            "base_memo: None",
+            "valid_features: data/task0_0_test_feature.csv;data/task1_0_test_feature.csv;data/task2_0_test_feature.csv",
+            "fig_bool: False"
+        ],
+        "experiment_id": "EXP_default",
+        "run_id": "RUN_default.0.9.0"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.9687180699446263
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 1/10, duration: 11.81993s, loss: 0.968718069945, val_loss: 1.48839538507"
+            ]
+        },
+        "validation_loss": {
+            "set": 1.4883953850678724
+        },
+        "run_id": "RUN_default.0.9.0"
+    },
+    {
+        "status": {
+            "set": "Finished"
+        },
+        "date_modified": {
+            "set": "NOW"
+        },
+        "end_time": {
+            "set": "2018-02-21 12:11:31.702043"
+        },
+        "runtime_hours": {
+            "set": 0.0032833802777777776
+        },
+        "run_id": "RUN_default.0.9.0"
+    }
+][
+    {
+        "status": "Started",
+        "start_time": "2018-02-21 15:26:39.744092",
+        "parameters": [
+            "non_trainable_params: 0",
+            "shuffle: True",
+            "verbose: True",
+            "run_id: RUN_default.0.9.0",
+            "home_dir: .",
+            "epochs: 10",
+            "seed: False",
+            "config_file: /Users/pbalapra/Projects/repos/2018/dl-benchmarks/share-version/coral2-deep-learning-suite/candle/Benchmarks/Pilot3/P3B1/p3b1_default_model.txt",
+            "out_act: softmax",
+            "output_files: result0_0.csv;result1_0.csv;result2_0.csv",
+            "n_fold: 1",
+            "train_bool: True",
+            "eval_bool: False",
+            "shared_nnet_spec: 1200",
+            "activation: relu",
+            "feature_names: Primary site:Tumor laterality:Histological grade",
+            "save: save",
+            "dropout: 0.0",
+            "valid_truths: data/task0_0_test_label.csv;data/task1_0_test_label.csv;data/task2_0_test_label.csv",
+            "total_params: 10113619",
+            "optimizer: sgd",
+            "save_path: None",
+            "learning_rate: 0.01",
+            "batch_size: 10",
+            "train_features: data/task0_0_train_feature.csv;data/task1_0_train_feature.csv;data/task2_0_train_feature.csv",
+            "train_truths: data/task0_0_train_label.csv;data/task1_0_train_label.csv;data/task2_0_train_label.csv",
+            "gpus: []",
+            "logfile: None",
+            "case: CenterZ",
+            "loss: categorical_crossentropy",
+            "datatype: <type 'numpy.float32'>",
+            "trainable_params: 10113619",
+            "ind_nnet_spec: 1200, 1200:1200, 1200:1200, 1200",
+            "base_memo: None",
+            "valid_features: data/task0_0_test_feature.csv;data/task1_0_test_feature.csv;data/task2_0_test_feature.csv",
+            "fig_bool: False"
+        ],
+        "experiment_id": "EXP_default",
+        "run_id": "RUN_default.0.9.0"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.9795269146943704
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 1/10, duration: 15.084325s, loss: 0.979526914694, val_loss: 1.56520169432"
+            ]
+        },
+        "validation_loss": {
+            "set": 1.5652016943151301
+        },
+        "run_id": "RUN_default.0.9.0"
+    },
+    {
+        "status": {
+            "set": "Finished"
+        },
+        "date_modified": {
+            "set": "NOW"
+        },
+        "end_time": {
+            "set": "2018-02-21 15:26:54.828644"
+        },
+        "runtime_hours": {
+            "set": 0.0041901533333333334
+        },
+        "run_id": "RUN_default.0.9.0"
+    }
+]

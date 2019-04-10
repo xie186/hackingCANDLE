@@ -1,0 +1,17 @@
+CORAL2 Deep Learning Benchmarks:
+===============================
+Contact: Prasanna Balaprakash (pbalapra@anl.gov), Venkat Vishwanath (venkat@anl.gov), Kalyan Kumaran (kumaran@anl.gov), ALCF, Argonne National Laboratory  
+
+CANDLE benchmarks:
+CANDLE benchmark codes implement deep learning architectures that are relevant to problems in cancer. These architectures address problems at different biological scales, specifically problems at the molecular, cellular and population scales. We will use two diverse benchmark problems, namely, a) P1B1, a sparse autoencoder to compress the expression profile into a low-dimensional vector, and, b)  P3B1 a multi-task deep neural net for data extraction from clinical reports.
+
+Convolutional Networks benchmarks:
+Convolutional Neural Network (CNN) is comprised of convolutional layers followed by fully connected layers. In this benchmark we will target CNN  architecture to take advantage of the 2D structure for image data set. This benchmark will include AlexNet, GoogleNet, ResNet reference examples.
+
+Long short-term memory (LSTM) benchmarks:
+LSTM is a recurrent neural network (RNN) architecture that remembers values over arbitrary intervals to deal with temporal and time-series prediction. 
+
+ResNet-50 for imagenet:
+This benchmark code implements resnet-50 distributed training for imagenet data using Keras and Horovod.
+
+
