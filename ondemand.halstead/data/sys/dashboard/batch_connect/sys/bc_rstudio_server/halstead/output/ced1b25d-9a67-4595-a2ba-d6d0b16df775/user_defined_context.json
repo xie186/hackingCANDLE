@@ -1,0 +1,6 @@
+{
+  "version": "1.1.456",
+  "custom_queue": "bioinf",
+  "custom_hours": "300",
+  "bc_email_on_started": "1"
+}

@@ -1,0 +1,23 @@
+Script starting...
+Generating connection YAML file...
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) xalt
+Copying source image
+-i triggered, value is /scratch/halstead/x/xie186/windows-base.qcow2
+-b triggered, value is 
+CPU info - 20 cores
+Selecting system memory of 117G
+pulseaudio: pa_context_connect() failed
+pulseaudio: Reason: Connection refused
+pulseaudio: Failed to initialize PA contextaudio: Could not init `pa' audio driver
+pulseaudio: pa_context_connect() failed
+pulseaudio: Reason: Connection refused
+pulseaudio: Failed to initialize PA contextaudio: Could not init `pa' audio driver
+You can now connect to this windows instance using vnc on host halstead-a341.rcac.purdue.edu:1
+WebSocket server settings:
+  - Listen on :62743
+  - Flash security policy server
+  - No SSL/TLS support (no cert file)
+  - Backgrounding (daemon)

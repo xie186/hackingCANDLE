@@ -1,0 +1,11 @@
+c.JupyterApp.config_file_name = 'ondemand_config'
+c.KernelSpecManager.ensure_native_kernel = False
+c.NotebookApp.ip = '*'
+c.NotebookApp.port = 12019
+c.NotebookApp.port_retries = 0
+c.NotebookApp.password = u'sha1:aix3DGtsMZqS9xs2:deaeac6910ba2accef06fccefd7ceccb26dd5425'
+c.NotebookApp.base_url = '/node/halstead-a410.rcac.purdue.edu/12019/'
+c.NotebookApp.open_browser = False
+c.NotebookApp.allow_origin = '*'
+c.NotebookApp.notebook_dir = '/home/xie186'
+c.NotebookApp.disable_check_xsrf = True

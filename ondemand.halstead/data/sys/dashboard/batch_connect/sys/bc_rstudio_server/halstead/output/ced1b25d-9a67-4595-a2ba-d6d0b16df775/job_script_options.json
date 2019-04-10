@@ -1,0 +1,13 @@
+{
+  "job_name": "OnDemand/Rstudio",
+  "workdir": "/home/xie186/ondemand.halstead/data/sys/dashboard/batch_connect/sys/bc_rstudio_server/halstead/output/ced1b25d-9a67-4595-a2ba-d6d0b16df775",
+  "output_path": "/home/xie186/ondemand.halstead/data/sys/dashboard/batch_connect/sys/bc_rstudio_server/halstead/output/ced1b25d-9a67-4595-a2ba-d6d0b16df775/output.log",
+  "shell_path": "/bin/bash",
+  "native": [
+    "-l nodes=1:ppn=20,naccesspolicy=singlejob"
+  ],
+  "email_on_started": true,
+  "queue_name": "bioinf",
+  "wall_time": 1080000,
+  "email": "xie186@purdue.edu"
+}

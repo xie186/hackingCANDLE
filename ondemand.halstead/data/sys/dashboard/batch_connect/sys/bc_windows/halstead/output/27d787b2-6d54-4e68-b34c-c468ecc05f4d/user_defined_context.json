@@ -1,0 +1,6 @@
+{
+  "custom_win_image": "windows-base.qcow2",
+  "custom_queue": "bioinf",
+  "custom_hours": "1",
+  "bc_email_on_started": "1"
+}

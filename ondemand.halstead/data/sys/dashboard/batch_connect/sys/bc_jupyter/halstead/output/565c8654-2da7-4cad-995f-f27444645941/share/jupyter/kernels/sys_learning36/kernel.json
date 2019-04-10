@@ -1,0 +1,15 @@
+{
+  "display_name": "Python 3.6 - Learning [learning/conda-5.1.0-py36-gpu]",
+  "language": "python",
+  "argv": [
+    "/home/xie186/ondemand.halstead/data/sys/dashboard/batch_connect/sys/bc_jupyter/halstead/output/565c8654-2da7-4cad-995f-f27444645941/launch_wrapper.sh",
+    "python",
+    "-m",
+    "ipykernel",
+    "-f",
+    "{connection_file}"
+  ],
+  "env": {
+    "MODULES": "learning/conda-5.1.0-py36-gpu ml-toolkit-gpu/opencv  ml-toolkit-gpu/keras  ml-toolkit-gpu/pytorch ml-toolkit-gpu/tensorflow  ml-toolkit-gpu/tflearn ml-toolkit-gpu/gym  ml-toolkit-gpu/cntk   ml-toolkit-gpu/theano ml-toolkit-gpu/gym"
+  }
+}

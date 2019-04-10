@@ -1,0 +1,15 @@
+{
+  "display_name": "Python 3.6 [anaconda/5.1.0-py36]",
+  "language": "python",
+  "argv": [
+    "/home/xie186/ondemand.halstead/data/sys/dashboard/batch_connect/sys/bc_jupyter/halstead/output/565c8654-2da7-4cad-995f-f27444645941/launch_wrapper.sh",
+    "python",
+    "-m",
+    "ipykernel_launcher",
+    "-f",
+    "{connection_file}"
+  ],
+  "env": {
+    "MODULES": "anaconda/5.1.0-py36"
+  }
+}

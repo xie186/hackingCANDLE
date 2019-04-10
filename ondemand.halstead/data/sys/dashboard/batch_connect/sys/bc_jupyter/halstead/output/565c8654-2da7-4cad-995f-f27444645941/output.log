@@ -1,0 +1,47 @@
+Script starting...
+Waiting for Jupyter Notebook server to open port 12019...
+Starting main script...
+TTT - Thu Mar 14 11:30:43 EDT 2019
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) xalt
+Creating launcher wrapper script...
+TTT - Thu Mar 14 11:30:43 EDT 2019
+Creating custom Jupyter kernels...
+cp: cannot stat '/home/xie186/ondemand.halstead/data/sys/dashboard/batch_connect/sys/bc_jupyter/halstead/output/565c8654-2da7-4cad-995f-f27444645941/assets/learning/*': No such file or directory
+cp: cannot stat '/home/xie186/ondemand.halstead/data/sys/dashboard/batch_connect/sys/bc_jupyter/halstead/output/565c8654-2da7-4cad-995f-f27444645941/assets/learning/*': No such file or directory
+TTT - Thu Mar 14 11:30:44 EDT 2019
+Creating custom Jupyter kernels from user-created Conda environments...
+TTT - Thu Mar 14 11:30:44 EDT 2019
+
+Currently Loaded Modules:
+  1) xalt (S)   2) anaconda/5.1.0-py27
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+TTT - Thu Mar 14 11:30:44 EDT 2019
++ jupyter kernelspec list
+Available kernels:
+  sys_learning27    /home/xie186/ondemand.halstead/data/sys/dashboard/batch_connect/sys/bc_jupyter/halstead/output/565c8654-2da7-4cad-995f-f27444645941/share/jupyter/kernels/sys_learning27
+  sys_learning36    /home/xie186/ondemand.halstead/data/sys/dashboard/batch_connect/sys/bc_jupyter/halstead/output/565c8654-2da7-4cad-995f-f27444645941/share/jupyter/kernels/sys_learning36
+  sys_python27      /home/xie186/ondemand.halstead/data/sys/dashboard/batch_connect/sys/bc_jupyter/halstead/output/565c8654-2da7-4cad-995f-f27444645941/share/jupyter/kernels/sys_python27
+  sys_python36      /home/xie186/ondemand.halstead/data/sys/dashboard/batch_connect/sys/bc_jupyter/halstead/output/565c8654-2da7-4cad-995f-f27444645941/share/jupyter/kernels/sys_python36
+  python2           /apps/cent7/anaconda/5.1.0-py27-new/share/jupyter/kernels/python2
+TTT - Thu Mar 14 11:30:47 EDT 2019
++ jupyter notebook --config=/home/xie186/ondemand.halstead/data/sys/dashboard/batch_connect/sys/bc_jupyter/halstead/output/565c8654-2da7-4cad-995f-f27444645941/config.py
+[W 11:30:50.591 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 11:30:50.626 NotebookApp] Serving notebooks from local directory: /home/xie186
+[I 11:30:50.626 NotebookApp] 0 active kernels
+[I 11:30:50.626 NotebookApp] The Jupyter Notebook is running at:
+[I 11:30:50.626 NotebookApp] http://[all ip addresses on your system]:12019/node/halstead-a410.rcac.purdue.edu/12019/
+[I 11:30:50.626 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+Discovered Jupyter Notebook server listening on port 12019!
+Generating connection YAML file...
+[I 11:31:22.828 NotebookApp] 302 POST /node/halstead-a410.rcac.purdue.edu/12019/login (128.211.148.30) 1.97ms
+[I 11:31:22.904 NotebookApp] 302 GET /node/halstead-a410.rcac.purdue.edu/12019/ (128.211.148.30) 0.42ms
+[C 11:32:22.139 NotebookApp] received signal 15, stopping
+[I 11:32:22.143 NotebookApp] Shutting down 0 kernels
